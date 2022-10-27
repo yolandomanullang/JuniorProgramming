@@ -1,24 +1,25 @@
 package com.cobaspring.cobaspring.response;
 
 public class CommonResponse<T> {
-    private int status;
+
+    private String status;
     private String message;
-    private  T datas;
+    private T datas;
 
     public CommonResponse() {
     }
 
-    public CommonResponse(int status, String message, T datas) {
+    public CommonResponse(String status, String message, T datas) {
         this.status = status;
         this.message = message;
         this.datas = datas;
     }
 
-    public int getStatus() {
+    public String getStatus() {
         return status;
     }
 
-    public void setStatus(int status) {
+    public void setStatus(String status) {
         this.status = status;
     }
 

@@ -1,11 +1,14 @@
 package com.cobaspring.cobaspring.entities;
 
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
-@Table(name = "Car")
 public class CarEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
