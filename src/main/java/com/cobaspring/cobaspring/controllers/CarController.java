@@ -1,7 +1,6 @@
 package com.cobaspring.cobaspring.controllers;
 
 import com.cobaspring.cobaspring.entities.CarEntity;
-import com.cobaspring.cobaspring.repositories.CarRepository;
 import com.cobaspring.cobaspring.response.CommonResponse;
 import com.cobaspring.cobaspring.response.CommonResponseGenerator;
 import com.cobaspring.cobaspring.services.CarService;

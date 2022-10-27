@@ -10,7 +10,6 @@ public interface CarService {
 
     CarEntity addCar(CarEntity param);
 
-
     List<CarEntity> getAllCar();
 
     CarEntity getById(int id);
